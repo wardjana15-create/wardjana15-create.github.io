@@ -4,7 +4,9 @@ baseurl: ""
 url: "https://aiflowkit.xyz"
 markdown: kramdown
 highlighter: rouge
-theme: minima
+
+# Remove the problematic theme line and use default Jekyll
+# theme: minima  <- Remove this line
 
 plugins:
   - jekyll-feed
@@ -36,3 +38,22 @@ seo:
   name: AI Flow Kit
   links:
     - "https://aiflowkit.xyz"
+
+# Jekyll configuration for Cloudflare Pages
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Build settings
+sass:
+  style: compressed
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
