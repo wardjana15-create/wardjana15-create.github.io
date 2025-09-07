@@ -1,0 +1,85 @@
+# Main Navigation Menu
+main:
+  - title: "Home"
+    url: /
+  - title: "AI Tools"
+    url: /ai-tools/
+    submenu:
+      - title: "Writing Tools"
+        url: /category/writing-tools/
+      - title: "Productivity Apps"
+        url: /category/productivity-apps/
+      - title: "Automation Tools"
+        url: /category/automation-tools/
+      - title: "Communication Tools"
+        url: /category/communication-tools/
+  - title: "Reviews"
+    url: /reviews/
+    submenu:
+      - title: "Tool Reviews"
+        url: /category/reviews/
+      - title: "Comparisons"
+        url: /category/comparisons/
+      - title: "Best Of Lists"
+        url: /category/best-of/
+  - title: "Guides"
+    url: /guides/
+    submenu:
+      - title: "Getting Started"
+        url: /category/getting-started/
+      - title: "Advanced Tutorials"
+        url: /category/tutorials/
+      - title: "Implementation"
+        url: /category/implementation/
+  - title: "Resources"
+    url: /resources/
+    submenu:
+      - title: "Free Tools"
+        url: /category/free-tools/
+      - title: "Templates"
+        url: /category/templates/
+      - title: "Checklists"
+        url: /category/checklists/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
+# Footer Navigation
+footer:
+  - title: "Company"
+    links:
+      - title: "About Us"
+        url: /about/
+      - title: "Contact"
+        url: /contact/
+      - title: "Careers"
+        url: /careers/
+  - title: "Legal"
+    links:
+      - title: "Privacy Policy"
+        url: /privacy-policy/
+      - title: "Terms of Service"
+        url: /terms-of-service/
+      - title: "Disclaimer"
+        url: /disclaimer/
+      - title: "Cookie Policy"
+        url: /cookie-policy/
+  - title: "Resources"
+    links:
+      - title: "Newsletter"
+        url: /newsletter/
+      - title: "Free Resources"
+        url: /free-resources/
+      - title: "Tool Database"
+        url: /tool-database/
+  - title: "Community"
+    links:
+      - title: "Twitter"
+        url: https://twitter.com/aiflowkit
+      - title: "LinkedIn"
+        url: https://linkedin.com/company/aiflowkit
+      - title: "YouTube"
+        url: https://youtube.com/@aiflowkit
+      - title: "Newsletter"
+        url: /newsletter/
