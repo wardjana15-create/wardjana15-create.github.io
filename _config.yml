@@ -1,0 +1,38 @@
+title: "AI Flow Kit - AI-Powered Productivity Tools"
+description: "Discover, compare, and master the best AI tools to supercharge your productivity and workflow automation"
+baseurl: ""
+url: "https://aiflowkit.xyz"
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: "AI Flow Kit Team"
+  email: "hello@aiflowkit.xyz"
+
+social:
+  - name: twitter
+    url: https://twitter.com/aiflowkit
+  - name: github
+    url: https://github.com/wardjana15-create
+
+# AI Productivity Blog Settings
+collections:
+  tools:
+    output: true
+    permalink: /tools/:name/
+  reviews:
+    output: true
+    permalink: /reviews/:name/
+
+# SEO for AI Tools Niche
+seo:
+  type: Organization
+  name: AI Flow Kit
+  links:
+    - "https://aiflowkit.xyz"
